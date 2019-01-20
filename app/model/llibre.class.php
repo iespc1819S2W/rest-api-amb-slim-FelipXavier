@@ -72,20 +72,20 @@ class Llibre
             $row=$stm->fetch();
             $id_llibre=$row["N"]+1;
             $titol=$data['titol'];
-            $numedicio=isset($data['numedicio']) ? $_POST[$data['numedicio']] : '';
-            $llocedicio=isset($data['llocedicio']) ? $_POST[$data['llocedicio']] : '';
-            $anyedicio=isset($data['anyedicio']) ? $_POST[$data['anyedicio']] : '';
-            $descrip_llib=isset($data['descrip_llib']) ? $_POST[$data['descrip_llib']] : '';
-            $isbn=isset($data['isbn']) ? $_POST[$data['isbn']] : '';
-            $deplegal=isset($data['deplegal']) ? $_POST[$data['deplegal']] : '';
-            $signtop=isset($data['signtop']) ? $_POST[$data['signtop']] : '';
-            $databaixa_llib=isset($data['databaixa_llib']) ? $_POST[$data['databaixa_llib']] : '';
-            $motiubaixa=isset($data['motiubiaxa']) ? $_POST[$data['motiubiaxa']] : '';
-            $fk_coleccio=isset($data['fk_coleccio']) ? $_POST[$data['fk_coleccio']] : '';
-            $fk_departament=isset($data['fk_departament']) ? $_POST[$data['fk_departament']] : '';
-            $fk_idedit=isset($data['fk_idedit']) ? $_POST[$data['fk_idedit']] : '';
-            $fk_llengua=isset($data['fk_llengua']) ? $_POST[$data['fk_llengua']] : '';
-            $img_llib=isset($data['img_llib']) ? $_POST[$data['img_llib']] : '';
+            $numedicio=isset($data['numedicio']) ? $data['numedicio'] : '';
+            $llocedicio=isset($data['llocedicio']) ? $data['llocedicio'] : '';
+            $anyedicio=isset($data['anyedicio']) ? $data['anyedicio'] : '';
+            $descrip_llib=isset($data['descrip_llib']) ? $data['descrip_llib'] : '';
+            $isbn=isset($data['isbn']) ? $data['isbn'] : '';
+            $deplegal=isset($data['deplegal']) ? $data['deplegal'] : '';
+            $signtop=isset($data['signtop']) ? $data['signtop'] : '';
+            $databaixa_llib=isset($data['databaixa_llib']) ? $data['databaixa_llib'] : '';
+            $motiubaixa=isset($data['motiubiaxa']) ? $data['motiubiaxa']: '';
+            $fk_coleccio=isset($data['fk_coleccio']) ? $data['fk_coleccio'] : '';
+            $fk_departament=isset($data['fk_departament']) ? $data['fk_departament'] : '';
+            $fk_idedit=isset($data['fk_idedit']) ? $data['fk_idedit'] : '';
+            $fk_llengua=isset($data['fk_llengua']) ? $data['fk_llengua'] : '';
+            $img_llib=isset($data['img_llib']) ? $data['img_llib'] : '';
 
             $sql = " INSERT INTO LLIBRES (ID_LLIB, TITOL, NUMEDICIO, LLOCEDICIO, 
                           ANYEDICIO, DESCRIP_LLIB, ISBN, DEPLEGAL, SIGNTOP, DATBAIXA_LLIB, MOTIUBAIXA, 
@@ -189,9 +189,10 @@ class Llibre
             return $this->resposta;
         }
     }
-    public function delete($id_llib)
+    public function delete($data)
     {
         try {
+            $id_llib = $data["id_llib"];
             $sql="DELETE from llibres where id_llib = :id_llib";
             $stm=$this->conn->prepare($sql);
             $stm->bindValue(':id_llib',$id_llib);

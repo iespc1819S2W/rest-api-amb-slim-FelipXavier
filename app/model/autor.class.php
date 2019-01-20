@@ -80,7 +80,7 @@ class Autor
                 $stm->bindValue(':fk_nacionalitat',!empty($fk_nacionalitat)?$fk_nacionalitat:NULL,PDO::PARAM_STR);
                 $stm->execute();
             
-       	        $this->resposta->setCorrecta(true,"insertat $id_aut");
+       	        $this->resposta->setCorrecta(true,"insertat $id_aut", $stm->rowCount());
                 return $this->resposta;
         }
         catch (Exception $e) 

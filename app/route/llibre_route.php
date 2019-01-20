@@ -40,9 +40,8 @@ $app->group('/llibre/', function () {
             );
     });
 
-    $this->put('{id}', function ($req, $res, $args) {
+    $this->put('', function ($req, $res, $args) {
         $atributs=$req->getParsedBody();  //llista atributs del client
-        $atributs["id_llib"]=$args["id"];     // Afegim id a la llista d'atributs
         $obj = new Llibre();
         return $res
             ->withHeader('Content-type', 'application/json')
@@ -54,14 +53,16 @@ $app->group('/llibre/', function () {
             );
     });
 
-    $this->delete('{id}', function ($req, $res, $args) {
+    $this->delete('', function ($req, $res, $args) {
+        $atributs=$req->getParsedBody();  //llista atributs del client
+
         $obj = new Llibre();
         return $res
             ->withHeader('Content-type', 'application/json')
             ->getBody()
             ->write(
                 json_encode(
-                    $obj->delete($args["id"])
+                    $obj->delete($atributs)
                 )
             );
     });
@@ -106,9 +107,9 @@ $this->post('autors-llibres/', function ($req, $res, $args) {
             );
     });
 
-    $this->get('filtra/{clau}/{valor}[/{order}[/{offset}[/{count}]]]', function ($req, $res, $args) {
+    $this->get('filtra/{id_llib}/{titol}[/{order}[/{offset}[/{count}]]]', function ($req, $res, $args) {
         $obj = new Llibre();
-        $where="{$args["clau"]} like '%{$args["valor"]}%'";
+        $where="{$args["id_llib"]} like '%{$args["titol"]}%'";
         $orderby =(isset($args["order"]) ? $args["order"] : "");
         $offset =(isset($args["offset"]) ? $args["offset"] : "");
         $count =(isset($args["count"]) ? $args["count"] : "");

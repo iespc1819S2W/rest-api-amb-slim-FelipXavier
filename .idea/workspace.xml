@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c49396-f84f-4669-8d96-4b97c698e9df" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/llibre.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/llibre_route.php" />
-      <change beforePath="$PROJECT_DIR$/app/config/db.const.php" afterPath="$PROJECT_DIR$/app/config/db.const.php" />
-      <change beforePath="$PROJECT_DIR$/app/lib/resposta.class.php" afterPath="$PROJECT_DIR$/app/lib/resposta.class.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/model/autor.class.php" afterPath="$PROJECT_DIR$/app/model/autor.class.php" />
-      <change beforePath="$PROJECT_DIR$/app/route/autor_route.php" afterPath="$PROJECT_DIR$/app/route/autor_route.php" />
+      <change beforePath="$PROJECT_DIR$/app/model/llibre.class.php" afterPath="$PROJECT_DIR$/app/model/llibre.class.php" />
+      <change beforePath="$PROJECT_DIR$/app/route/llibre_route.php" afterPath="$PROJECT_DIR$/app/route/llibre_route.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,17 +42,17 @@
       <file leaf-file-name="autor.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/autor.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2190">
-              <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state relative-caret-position="-1064">
+              <caret line="82" column="86" lean-forward="false" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
               <folding>
                 <element signature="e#27#48#0#PHP" expanded="true" />
-                <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-                <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-                <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-                <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-                <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-                <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-                <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+                <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+                <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+                <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+                <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+                <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+                <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+                <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
               </folding>
             </state>
           </provider>
@@ -93,8 +91,8 @@
       <file leaf-file-name="llibre_route.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-481">
-              <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            <state relative-caret-position="1093">
+              <caret line="97" column="34" lean-forward="false" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -113,26 +111,31 @@
       <file leaf-file-name="llibre.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/llibre.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="265" column="20" lean-forward="false" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
+            <state relative-caret-position="-322">
+              <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="39" />
               <folding>
                 <element signature="e#122#143#0#PHP" expanded="true" />
-                <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-                <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-                <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-                <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-                <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-                <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-                <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-                <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-                <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-                <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+                <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+                <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+                <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+                <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+                <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+                <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+                <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+                <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+                <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+                <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>post</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,9 +154,9 @@
         <option value="$PROJECT_DIR$/app/lib/resposta.class.php" />
         <option value="$PROJECT_DIR$/app/route/autors-llibre_route.php" />
         <option value="$PROJECT_DIR$/app/route/autor_route.php" />
-        <option value="$PROJECT_DIR$/app/model/autor.class.php" />
-        <option value="$PROJECT_DIR$/app/model/llibre.class.php" />
         <option value="$PROJECT_DIR$/app/route/llibre_route.php" />
+        <option value="$PROJECT_DIR$/app/model/llibre.class.php" />
+        <option value="$PROJECT_DIR$/app/model/autor.class.php" />
       </list>
     </option>
   </component>
@@ -203,7 +206,7 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -392,15 +395,15 @@
       <workItem from="1547663657457" duration="3947000" />
       <workItem from="1547668469505" duration="195000" />
       <workItem from="1547986554252" duration="5254000" />
-      <workItem from="1548005818747" duration="2576000" />
+      <workItem from="1548005818747" duration="9317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34270000" />
+    <option name="totallyTimeSpent" value="41011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -465,16 +468,16 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -494,13 +497,13 @@
           <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
           <folding>
             <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -528,16 +531,16 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -557,13 +560,13 @@
           <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
           <folding>
             <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -591,16 +594,16 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -620,13 +623,13 @@
           <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding>
             <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -654,16 +657,16 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -683,13 +686,13 @@
           <caret line="103" column="37" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="37" />
           <folding>
             <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -709,16 +712,16 @@
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -745,13 +748,13 @@
           <caret line="103" column="37" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="37" />
           <folding>
             <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -771,16 +774,16 @@
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -854,45 +857,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/autor.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state relative-caret-position="-1064">
+          <caret line="82" column="86" lean-forward="false" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
           <folding>
             <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1547995709203" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1547995709203" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1547995709203" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1547995709203" expanded="true" signature="3258:3354" ph="UPDATE AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4002:4037" ph="DELETE from AUTORS... " />
-            <marker date="1547995709203" expanded="true" signature="4585:4605" ph="SELECT * fro... AUTORS" />
+            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
+            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
+            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
+            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
+            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/llibre.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="265" column="20" lean-forward="false" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
+        <state relative-caret-position="-322">
+          <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="39" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548007670512" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="3439:3966" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="7039:7648" ph="UPDATE LLIBRES... " />
-            <marker date="1548007670512" expanded="true" signature="9229:9273" ph="DELETE from llibres... " />
-            <marker date="1548007670512" expanded="true" signature="9877:9898" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548007670512" expanded="true" signature="11571:11718" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="12467:12580" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548007670512" expanded="true" signature="13201:13469" ph="SELECT au.ID... AUTORS" />
+            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
+            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
+            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
+            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-481">
-          <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        <state relative-caret-position="1093">
+          <caret line="97" column="34" lean-forward="false" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
           <folding />
         </state>
       </provider>
