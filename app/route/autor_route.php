@@ -26,6 +26,18 @@ $app->group('/autor/', function () {
             )
         );         
     });
+
+    $this->get('autors-llibre/{id}', function ($req, $res, $args) {
+        $obj = new Autor();
+        return $res
+            ->withHeader('Content-type', 'application/json')
+            ->getBody()
+            ->write(
+                json_encode(
+                    $obj->autorsllibre($args["id"])
+                )
+            );
+    });
            
     $this->post('', function ($req, $res, $args) {
             $atributs=$req->getParsedBody();  //llista atributs del client
@@ -42,7 +54,7 @@ $app->group('/autor/', function () {
 
     $this->put('{id}', function ($req, $res, $args) {
         $atributs=$req->getParsedBody();  //llista atributs del client
-        $atributs["id"]=$args["id"];     // Afegim id a la llista d'atributs
+        $atributs["ID_AUT"]=$args["id"];     // Afegim id a la llista d'atributs
         $obj = new Autor();
         return $res
            ->withHeader('Content-type', 'application/json')
@@ -55,7 +67,7 @@ $app->group('/autor/', function () {
     });  
     
     $this->delete('{id}', function ($req, $res, $args) {
-        $obj = new Lloc();   
+        $obj = new Autor();
         return $res
            ->withHeader('Content-type', 'application/json')
            ->getBody()
@@ -65,5 +77,20 @@ $app->group('/autor/', function () {
             )
         ); 
     });
-        
+
+    $this->get('filtra/{clau}/{valor}[/{order}[/{offset}[/{count}]]]', function ($req, $res, $args) {
+        $obj = new Autor();
+        $where="{$args["clau"]} like '%{$args["valor"]}%'";
+        $orderby =(isset($args["order"]) ? $args["order"] : "");
+        $offset =(isset($args["offset"]) ? $args["offset"] : "");
+        $count =(isset($args["count"]) ? $args["count"] : "");
+        return $res
+            ->withHeader('Content-type', 'application/json')
+            ->getBody()
+            ->write(
+                json_encode(
+                    $obj->filtra($where,$orderby,$offset,$count)
+                )
+            );
+    });
 });

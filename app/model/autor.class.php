@@ -88,24 +88,96 @@ class Autor
                 $this->resposta->setCorrecta(false, "Error insertant: ".$e->getMessage());
                 return $this->resposta;
 		}
-    }   
-    
+    }
+
     public function update($data)
     {
-        // TODO
+        try {
+            $nom_aut=isset($data['NOM_AUT']) ? $data['NOM_AUT'] : '';
+            $fk_nacionalitat=isset($data['FK_NACIONALITAT']) ? $data['FK_NACIONALITAT'] : '';
+            $id_aut=isset($data['ID_AUT']) ? $data['ID_AUT'] : '';
+
+
+            $sql = "UPDATE AUTORS SET NOM_AUT = :nom_aut , FK_NACIONALITAT = :fk_nacionalitat where ID_AUT = :id_aut";
+            $stm=$this->conn->prepare($sql);
+            $stm->bindValue(':id_aut',$id_aut);
+            $stm->bindValue(':nom_aut',$nom_aut);
+            $stm->bindValue(':fk_nacionalitat',!empty($fk_nacionalitat)?$fk_nacionalitat:NULL,PDO::PARAM_STR);
+            $stm->execute();
+            $this->resposta->setCorrecta(true,$stm->rowCount());
+            return $this->resposta;
+        }
+        catch (Exeption $e)
+        {
+            $this->resposta->setCorrecta(false,0, "Error insertant: ".$e->getMessage());
+            return $this->resposta;
+        }
     }
 
-    
-    
+
     public function delete($id)
     {
-        // TODO
+        try {
+            $sql="DELETE from AUTORS where ID_AUT=:id";
+            $stm=$this->conn->prepare($sql);
+            $stm->bindValue(':id',$id);
+            $stm->execute();
+            $this->resposta->setCorrecta(true);
+            return $this->resposta;
+        } catch (Exeption $e){
+            $this->resposta->setCorrecta(false, "Error insertant: ".$e->getMessage());
+            return $this->resposta;
+        }
     }
-
     public function filtra($where,$orderby,$offset,$count)
     {
-        // TODO
+        try {
+            $bWhere=true;
+            $limit=false;
+            $bOffset=false;
+            $sql="SELECT * from AUTORS";
+            if(strlen($where)==0){
+                $bWhere=false;
+            } else {
+                $sql=$sql." WHERE nom_aut like :w";
+            }
+
+            if(strlen($orderby)==0){
+            } else {
+                $orderby = filter_var($orderby, FILTER_SANITIZE_STRING);
+                $sql=$sql." ORDER BY $orderby desc";
+            }
+            if($count!=""){
+                $limit=true;
+                if($offset!=""){
+                    $bOffset=true;
+                    $sql=$sql." limit :offset,:count";
+                } else {
+                    $sql=$sql." limit :count";
+                }
+            }
+            $stm=$this->conn->prepare($sql);
+
+            if($bWhere){
+                $stm->bindValue(':w','%'.$where.'%');
+            }
+            if($limit){
+                $stm->bindValue(':count',$count,PDO::PARAM_INT);
+            }
+            if($bOffset){
+                $stm->bindValue(':offset',$offset,PDO::PARAM_INT);
+            }
+
+            $stm->execute();
+            $tuples=$stm->fetchAll();
+
+            $this->resposta->setDades($tuples);
+            $this->resposta->setCorrecta(true);
+            return $this->resposta;
+        } catch (Exeption $e){
+            $this->resposta->setCorrecta(false, "Error insertant: ".$e->getMessage());
+            return $this->resposta;
+        }
     }
-    
-          
+
 }
