@@ -12,6 +12,8 @@ Una vegada instal·lat composer hem d'executar desde el directori on volem insta
 
 El que farem serà utilitzant les classes fetes per la pràctica de llibres montar l'api REST fent servir Slim.
 
+A la carpeta **screenshots** hi ha captures de pantalla de les operacions que es poden fer amb Llibres;
+
 
 |DESCRIPCIO| RUTA | METODE | HEADER | KEY |
 | --- | --- | --- | --- | --- |
@@ -22,5 +24,5 @@ El que farem serà utilitzant les classes fetes per la pràctica de llibres mont
 |Modificar un llibre (PUT)| http://localhost/rest-api-amb-slim-felipxavier/public/llibre/ | PUT | application/x-www-form-urlencoded | id_llib, titol,numedicio,llocedicio, anyedicio, ... |
 |Borrar un llibre(DELETE)|http://localhost/rest-api-amb-slim-felipxavier/public/llibre/ | DELETE |application/x-www-form-urlencoded | id_llib |
 |Llegir tots els autors d’un llibre. (GET)| http://localhost/rest-api-amb-slim-felipxavier/public/llibre/llibre-autors/{id_llib}| GET |application/x-www-form-urlencoded | id_llib |
-|Alta d’un nou autor d’un llibre (POST) |http://localhost/rest-api-amb-slim-felipxavier/public/llibre/autors-llibres/| POST|application/x-www-form-urlencoded | id_llib, id_aut |
-|Baixa d’un autor d’un determinat llibre (DELETE)|http://localhost/rest-api-amb-slim-felipxavier/public/llibre/autors-llibres/| DELETE| application/x-www-form-urlencoded| id_llib, id_aut|
+|Alta d’un nou autor d’un llibre (POST) |http://localhost/rest-api-amb-slim-felipxavier/public/llibre/autors-llibre/| POST|application/x-www-form-urlencoded | id_llib, id_aut |
+|Baixa d’un autor d’un determinat llibre (DELETE)|http://localhost/rest-api-amb-slim-felipxavier/public/llibre/autors-llibre/| DELETE| application/x-www-form-urlencoded| id_llib, id_aut|
