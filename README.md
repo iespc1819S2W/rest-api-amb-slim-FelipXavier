@@ -12,7 +12,7 @@ Una vegada instal·lat composer hem d'executar desde el directori on volem insta
 
 El que farem serà utilitzant les classes fetes per la pràctica de llibres montar l'api REST fent servir Slim.
 
-A la carpeta **screenshots** hi ha captures de pantalla de les operacions que es poden fer amb Llibres;
+**A la carpeta *screenshots* hi ha captures de pantalla de les operacions que es poden fer amb Llibres;**
 
 
 |DESCRIPCIO| RUTA | METODE | HEADER | KEY |
