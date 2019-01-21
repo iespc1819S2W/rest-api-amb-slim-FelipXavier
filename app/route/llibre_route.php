@@ -68,7 +68,7 @@ $app->group('/llibre/', function () {
     });
 
 
-$this->post('autors-llibres/', function ($req, $res, $args) {
+$this->post('autors-llibre/', function ($req, $res, $args) {
     $atributs=$req->getParsedBody();  //llista atributs del client
     $obj = new Llibre();
     return $res
@@ -81,7 +81,7 @@ $this->post('autors-llibres/', function ($req, $res, $args) {
         );
 });
 
-    $this->delete('autors-llibres/', function ($req, $res, $args) {
+    $this->delete('autors-llibre/', function ($req, $res, $args) {
         $atributs=$req->getParsedBody();  //llista atributs del client
         $obj = new Llibre();
         return $res
