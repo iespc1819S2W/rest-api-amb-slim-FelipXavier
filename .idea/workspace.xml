@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c49396-f84f-4669-8d96-4b97c698e9df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/route/llibre_route.php" afterPath="$PROJECT_DIR$/app/route/llibre_route.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/colleccio.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/departament.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/editorial.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/llengua.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/nacionalitat.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/collecio_route.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/departament_route.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/editorials.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/llengua_route.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/nacionalitat_route.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/model/llibre.class.php" afterPath="$PROJECT_DIR$/app/model/llibre.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,90 +27,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db.const.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/db.const.php">
+      <file leaf-file-name="nacionalitat.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/nacionalitat.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/database.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autor.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/autor.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="82" column="86" lean-forward="false" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
+            <state relative-caret-position="187">
+              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding>
-                <element signature="e#27#48#0#PHP" expanded="true" />
-                <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-                <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-                <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-                <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-                <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-                <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-                <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
+                <element signature="e#122#143#0#PHP" expanded="true" />
+                <marker date="1551608358198" expanded="true" signature="624:651" ph="SELECT * FRO... NACIONALITATS" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autor_route.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/route/autor_route.php">
+      <file leaf-file-name="nacionalitat_route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/route/nacionalitat_route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="71" column="59" lean-forward="false" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resposta.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/resposta.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="llibre_route.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hola_route.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/route/hola_route.php">
+      <file leaf-file-name="collecio_route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/route/collecio_route.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colleccio.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/model/colleccio.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#122#143#0#PHP" expanded="true" />
+                <marker date="1551725458018" expanded="true" signature="621:646" ph="SELECT * FRO... COLLECCIONS" />
+                <marker date="1551725458018" expanded="true" signature="1271:1354" ph="INSERT INTO COLLECCIONS... " />
+                <marker date="1551725458018" expanded="true" signature="1864:1932" ph="SELECT colle... " />
+                <marker date="1551725458018" expanded="true" signature="1864:1933" ph="SELECT colle... " />
+                <marker date="1551725458018" expanded="true" signature="1864:1959" ph="SELECT colle... " />
+                <marker date="1551725458018" expanded="true" signature="1864:1960" ph="SELECT colle... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="departament.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/departament.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <marker date="1550875276392" expanded="true" signature="644:670" ph="SELECT * FRO... DEPARTAMENTS" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editorial.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/editorial.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="e#122#143#0#PHP" expanded="true" />
+                <marker date="1550908160940" expanded="true" signature="622:659" ph="SELECT ID_ED... EDITORS" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="departament_route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/route/departament_route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editorials.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/route/editorials.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -108,21 +126,32 @@
       <file leaf-file-name="llibre.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/llibre.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="39" />
+            <state relative-caret-position="366">
+              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding>
                 <element signature="e#122#143#0#PHP" expanded="true" />
-                <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-                <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-                <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-                <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-                <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-                <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-                <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-                <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-                <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-                <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
+                <marker date="1551116973459" expanded="true" signature="635:660" ph="SELECT ID_LL... LLIBRES" />
+                <marker date="1551116973459" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+                <marker date="1551116973459" expanded="true" signature="1317:1409" ph="SELECT * FRO... LLIBRES" />
+                <marker date="1551116973459" expanded="true" signature="2028:2065" ph="SELECT max(i... LLIBRES" />
+                <marker date="1551116973459" expanded="true" signature="3357:3884" ph="INSERT INTO LLIBRES... " />
+                <marker date="1551116973459" expanded="true" signature="6957:7566" ph="UPDATE LLIBRES... " />
+                <marker date="1551116973459" expanded="true" signature="9185:9229" ph="DELETE from llibres... " />
+                <marker date="1551116973459" expanded="true" signature="9833:9854" ph="SELECT * fro... LLIBRES" />
+                <marker date="1551116973459" expanded="true" signature="11527:11674" ph="INSERT INTO LLI_AUT... " />
+                <marker date="1551116973459" expanded="true" signature="12423:12536" ph="DELETE FROM LLI_AUT... " />
+                <marker date="1551116973459" expanded="true" signature="13157:13493" ph="SELECT au.ID... AUTORS" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="llibre_route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-493">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,9 +180,20 @@
         <option value="$PROJECT_DIR$/app/lib/resposta.class.php" />
         <option value="$PROJECT_DIR$/app/route/autors-llibre_route.php" />
         <option value="$PROJECT_DIR$/app/route/autor_route.php" />
-        <option value="$PROJECT_DIR$/app/model/llibre.class.php" />
         <option value="$PROJECT_DIR$/app/model/autor.class.php" />
+        <option value="$PROJECT_DIR$/app/route/llengua_route.php" />
+        <option value="$PROJECT_DIR$/app/model/Colleccio.class.php" />
+        <option value="$PROJECT_DIR$/app/model/llengua.class.php" />
+        <option value="$PROJECT_DIR$/app/model/departament.class.php" />
+        <option value="$PROJECT_DIR$/app/route/departament_route.php" />
+        <option value="$PROJECT_DIR$/app/model/editorial.class.php" />
         <option value="$PROJECT_DIR$/app/route/llibre_route.php" />
+        <option value="$PROJECT_DIR$/app/model/llibre.class.php" />
+        <option value="$PROJECT_DIR$/app/model/nacionalitat.class.php" />
+        <option value="$PROJECT_DIR$/app/route/nacionalitat_route.php" />
+        <option value="$PROJECT_DIR$/app/route/editorials.php" />
+        <option value="$PROJECT_DIR$/app/route/collecio_route.php" />
+        <option value="$PROJECT_DIR$/app/model/colleccio.class.php" />
       </list>
     </option>
   </component>
@@ -162,6 +202,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -203,11 +249,11 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="684" />
+    <option name="y" value="25" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -224,9 +270,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +290,18 @@
               <item name="rest-api-amb-slim-FelipXavier" type="b2602c69:ProjectViewProjectNode" />
               <item name="rest-api-amb-slim-FelipXavier" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-api-amb-slim-FelipXavier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-amb-slim-FelipXavier" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-api-amb-slim-FelipXavier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-amb-slim-FelipXavier" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,21 +310,10 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rest-api-amb-slim-FelipXavier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-api-amb-slim-FelipXavier" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-api-amb-slim-FelipXavier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-api-amb-slim-FelipXavier" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,41 +441,53 @@
       <workItem from="1547668469505" duration="195000" />
       <workItem from="1547986554252" duration="5254000" />
       <workItem from="1548005818747" duration="9706000" />
-      <workItem from="1548068623902" duration="29000" />
+      <workItem from="1548068623902" duration="1132000" />
+      <workItem from="1548091206445" duration="102000" />
+      <workItem from="1550519247750" duration="708000" />
+      <workItem from="1550778906472" duration="4580000" />
+      <workItem from="1550856666598" duration="1614000" />
+      <workItem from="1550867696131" duration="6743000" />
+      <workItem from="1551006293476" duration="2160000" />
+      <workItem from="1551037909935" duration="3754000" />
+      <workItem from="1551116771606" duration="874000" />
+      <workItem from="1551202169797" duration="531000" />
+      <workItem from="1551608239141" duration="3501000" />
+      <workItem from="1551722309190" duration="3392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41429000" />
+    <option name="totallyTimeSpent" value="70491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15885022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -443,112 +503,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/route/autors-llibre_route.php" />
-    <entry file="file://$PROJECT_DIR$/app/route/autor_route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/llibre.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
-          <folding>
-            <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/route/update_autor_route.php" />
     <entry file="file://$PROJECT_DIR$/app/config/db.const.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/autor.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
-          <folding>
-            <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/route/autors-llibre_route.php" />
-    <entry file="file://$PROJECT_DIR$/app/route/autor_route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/llibre.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
-          <folding>
-            <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/route/update_autor_route.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/db.const.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,16 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
-          <folding>
-            <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,16 +540,17 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
+            <marker date="1551116973459" expanded="true" signature="635:660" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="1317:1409" ph="SELECT * FRO... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="2028:2065" ph="SELECT max(i... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="3357:3884" ph="INSERT INTO LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="6957:7566" ph="UPDATE LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="9185:9229" ph="DELETE from llibres... " />
+            <marker date="1551116973459" expanded="true" signature="9833:9854" ph="SELECT * fro... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="11527:11674" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="12423:12536" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="13157:13493" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -611,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,16 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
-          <folding>
-            <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,16 +592,17 @@
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="83" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
+            <marker date="1551116973459" expanded="true" signature="635:660" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="1317:1409" ph="SELECT * FRO... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="2028:2065" ph="SELECT max(i... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="3357:3884" ph="INSERT INTO LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="6957:7566" ph="UPDATE LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="9185:9229" ph="DELETE from llibres... " />
+            <marker date="1551116973459" expanded="true" signature="9833:9854" ph="SELECT * fro... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="11527:11674" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="12423:12536" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="13157:13493" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -674,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,16 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1751">
           <caret line="103" column="37" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="37" />
-          <folding>
-            <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,16 +636,17 @@
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
+            <marker date="1551116973459" expanded="true" signature="635:660" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="1317:1409" ph="SELECT * FRO... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="2028:2065" ph="SELECT max(i... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="3357:3884" ph="INSERT INTO LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="6957:7566" ph="UPDATE LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="9185:9229" ph="DELETE from llibres... " />
+            <marker date="1551116973459" expanded="true" signature="9833:9854" ph="SELECT * fro... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="11527:11674" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="12423:12536" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="13157:13493" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -736,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,16 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="103" column="37" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="37" />
-          <folding>
-            <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,16 +687,17 @@
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
+            <marker date="1551116973459" expanded="true" signature="635:660" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="1317:1409" ph="SELECT * FRO... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="2028:2065" ph="SELECT max(i... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="3357:3884" ph="INSERT INTO LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="6957:7566" ph="UPDATE LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="9185:9229" ph="DELETE from llibres... " />
+            <marker date="1551116973459" expanded="true" signature="9833:9854" ph="SELECT * fro... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="11527:11674" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="12423:12536" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="13157:13493" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
@@ -798,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,6 +729,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/update_autor_route.php" />
+    <entry file="file://$PROJECT_DIR$/app/route/hola_route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/autors-llibre_route.php" />
+    <entry file="file://$PROJECT_DIR$/app/app_loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/database.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -827,74 +764,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/database.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/route/update_autor_route.php" />
-    <entry file="file://$PROJECT_DIR$/app/route/hola_route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/route/autors-llibre_route.php" />
-    <entry file="file://$PROJECT_DIR$/app/route/autor_route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="59" lean-forward="false" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/autor.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="82" column="86" lean-forward="false" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/autor_route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/llengua.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/llengua_route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/nacionalitat_route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/departament_route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/editorials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/departament.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
-            <element signature="e#27#48#0#PHP" expanded="true" />
-            <marker date="1548021256466" expanded="true" signature="530:595" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1197:1260" ph="SELECT id_au... autors" />
-            <marker date="1548021256466" expanded="true" signature="1845:1880" ph="SELECT max(i... autors" />
-            <marker date="1548021256466" expanded="true" signature="2168:2318" ph="INSERT INTO autors... " />
-            <marker date="1548021256466" expanded="true" signature="3276:3372" ph="UPDATE AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4020:4055" ph="DELETE from AUTORS... " />
-            <marker date="1548021256466" expanded="true" signature="4603:4623" ph="SELECT * fro... AUTORS" />
+            <marker date="1550875276392" expanded="true" signature="644:670" ph="SELECT * FRO... DEPARTAMENTS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/editorial.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#122#143#0#PHP" expanded="true" />
+            <marker date="1550908160940" expanded="true" signature="622:659" ph="SELECT ID_ED... EDITORS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/nacionalitat.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#122#143#0#PHP" expanded="true" />
+            <marker date="1551608358198" expanded="true" signature="624:651" ph="SELECT * FRO... NACIONALITATS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/llibre.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="39" />
+        <state relative-caret-position="366">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="e#122#143#0#PHP" expanded="true" />
-            <marker date="1548020807340" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1317:1378" ph="SELECT ID_LL... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="1997:2034" ph="SELECT max(i... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="3326:3853" ph="INSERT INTO LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="6926:7535" ph="UPDATE LLIBRES... " />
-            <marker date="1548020807340" expanded="true" signature="9154:9198" ph="DELETE from llibres... " />
-            <marker date="1548020807340" expanded="true" signature="9802:9823" ph="SELECT * fro... LLIBRES" />
-            <marker date="1548020807340" expanded="true" signature="11496:11643" ph="INSERT INTO LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="12392:12505" ph="DELETE FROM LLI_AUT... " />
-            <marker date="1548020807340" expanded="true" signature="13126:13394" ph="SELECT au.ID... AUTORS" />
+            <marker date="1551116973459" expanded="true" signature="635:660" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="635:683" ph="SELECT ID_LL... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="1317:1409" ph="SELECT * FRO... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="2028:2065" ph="SELECT max(i... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="3357:3884" ph="INSERT INTO LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="6957:7566" ph="UPDATE LLIBRES... " />
+            <marker date="1551116973459" expanded="true" signature="9185:9229" ph="DELETE from llibres... " />
+            <marker date="1551116973459" expanded="true" signature="9833:9854" ph="SELECT * fro... LLIBRES" />
+            <marker date="1551116973459" expanded="true" signature="11527:11674" ph="INSERT INTO LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="12423:12536" ph="DELETE FROM LLI_AUT... " />
+            <marker date="1551116973459" expanded="true" signature="13157:13493" ph="SELECT au.ID... AUTORS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/route/llibre_route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="-493">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/route/collecio_route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/colleccio.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#143#0#PHP" expanded="true" />
+            <marker date="1551725458018" expanded="true" signature="621:646" ph="SELECT * FRO... COLLECCIONS" />
+            <marker date="1551725458018" expanded="true" signature="1271:1354" ph="INSERT INTO COLLECCIONS... " />
+            <marker date="1551725458018" expanded="true" signature="1864:1932" ph="SELECT colle... " />
+            <marker date="1551725458018" expanded="true" signature="1864:1933" ph="SELECT colle... " />
+            <marker date="1551725458018" expanded="true" signature="1864:1959" ph="SELECT colle... " />
+            <marker date="1551725458018" expanded="true" signature="1864:1960" ph="SELECT colle... " />
+          </folding>
         </state>
       </provider>
     </entry>

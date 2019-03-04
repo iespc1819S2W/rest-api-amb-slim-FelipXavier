@@ -47,7 +47,7 @@ class Llibre
         try
         {
             $result = array();
-            $stm = $this->conn->prepare("SELECT ID_LLIB,TITOL,ISBN FROM LLIBRES where id_LLIB=:id_LLIB");
+            $stm = $this->conn->prepare("SELECT * FROM LLIBRES lli join editors ed on ed.ID_EDIT=lli.FK_IDEDIT where id_LLIB=:id_LLIB");
             $stm->bindValue(':id_LLIB',$id);
             $stm->execute();
             $tupla=$stm->fetch();
@@ -317,7 +317,7 @@ class Llibre
         try
         {
             $result = array();
-            $stm = $this->conn->prepare("SELECT au.ID_AUT as Codi_Autor,NOM_AUT as Nom, llib.ID_LLIB as Codi_Llibre, llib.TITOL as Titol from AUTORS au
+            $stm = $this->conn->prepare("SELECT au.ID_AUT as Codi_Autor,NOM_AUT as Nom, llib.ID_LLIB as Codi_Llibre, llib.TITOL as Titol, au.FK_NACIONALITAT as Nacionalitat, au.DNAIX_AUT as Data_naixament from AUTORS au
             INNER join LLI_AUT llia on au.ID_AUT=llia.FK_IDAUT
             INNER join LLIBRES llib on llia.FK_IDLLIB=llib.ID_LLIB where llib.id_LLIB=:id_llib");
             $stm->bindValue(':id_llib',$id_llibre);
