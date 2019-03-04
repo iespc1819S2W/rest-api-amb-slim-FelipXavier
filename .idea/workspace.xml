@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c49396-f84f-4669-8d96-4b97c698e9df" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/colleccio.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/departament.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/editorial.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/llengua.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/model/nacionalitat.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/collecio_route.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/departament_route.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/editorials.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/llengua_route.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/route/nacionalitat_route.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/model/llibre.class.php" afterPath="$PROJECT_DIR$/app/model/llibre.class.php" />
-    </list>
+    <list default="true" id="98c49396-f84f-4669-8d96-4b97c698e9df" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -452,12 +439,12 @@
       <workItem from="1551116771606" duration="874000" />
       <workItem from="1551202169797" duration="531000" />
       <workItem from="1551608239141" duration="3501000" />
-      <workItem from="1551722309190" duration="3392000" />
+      <workItem from="1551722309190" duration="3666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70491000" />
+    <option name="totallyTimeSpent" value="70765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
