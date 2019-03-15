@@ -27,7 +27,7 @@ $app->group('/llibre/', function () {
             );
     });
 
-    $this->post('', function ($req, $res, $args) {
+    $this->put('update/', function ($req, $res, $args) {
         $atributs=$req->getParsedBody();  //llista atributs del client
         $obj = new Llibre();
         return $res
@@ -35,12 +35,12 @@ $app->group('/llibre/', function () {
             ->getBody()
             ->write(
                 json_encode(
-                    $obj->insert($atributs)
+                    $obj->update($atributs)
                 )
             );
     });
 
-    $this->put('', function ($req, $res, $args) {
+    $this->post('', function ($req, $res, $args) {
         $atributs=$req->getParsedBody();  //llista atributs del client
         $obj = new Llibre();
         return $res

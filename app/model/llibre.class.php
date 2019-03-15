@@ -28,7 +28,7 @@ class Llibre
         try
         {
             $result = array();
-            $stm = $this->conn->prepare("SELECT ID_LLIB,TITOL,ISBN FROM LLIBRES ORDER BY $orderby");
+            $stm = $this->conn->prepare("SELECT * FROM LLIBRES ORDER BY $orderby");
             $stm->execute();
             $tuples=$stm->fetchAll();
             $this->resposta->setDades($tuples);    // array de tuples
@@ -47,7 +47,7 @@ class Llibre
         try
         {
             $result = array();
-            $stm = $this->conn->prepare("SELECT * FROM LLIBRES lli join editors ed on ed.ID_EDIT=lli.FK_IDEDIT where id_LLIB=:id_LLIB");
+            $stm = $this->conn->prepare("SELECT * FROM LLIBRES lli left outer join editors ed on ed.ID_EDIT=lli.FK_IDEDIT where id_LLIB=:id_LLIB");
             $stm->bindValue(':id_LLIB',$id);
             $stm->execute();
             $tupla=$stm->fetch();
@@ -71,6 +71,7 @@ class Llibre
             $stm->execute();
             $row=$stm->fetch();
             $id_llibre=$row["N"]+1;
+
             $titol=$data['titol'];
             $numedicio=isset($data['numedicio']) ? $data['numedicio'] : '';
             $llocedicio=isset($data['llocedicio']) ? $data['llocedicio'] : '';
@@ -165,22 +166,22 @@ class Llibre
             $stm=$this->conn->prepare($sql);
             $stm->bindValue(':id_llib', $id_llib);
             $stm->bindValue(':nomLlibre', $nomLlibre);
-            $stm->bindValue(':numEdicio', $numEdicio);
-            $stm->bindValue(':llocedicio', $llocedicio);
+            $stm->bindValue(':numEdicio', !empty($numEdicio)?$numEdicio:NULL,PDO::PARAM_STR);
+            $stm->bindValue(':llocedicio', !empty($llocedicio)?$llocedicio:NULL,PDO::PARAM_STR);
             $stm->bindValue(':anyedicio', !empty($anyedicio)?$anyedicio:NULL,PDO::PARAM_STR);
-            $stm->bindValue(':descrip_llib', $descrip_llib);
-            $stm->bindValue(':isbn', $isbn);
-            $stm->bindValue(':deplegal', $deplegal);
-            $stm->bindValue(':signtop', $signtop);
+            $stm->bindValue(':descrip_llib', !empty($descrip_llib)?$descrip_llib:NULL,PDO::PARAM_STR);
+            $stm->bindValue(':isbn', !empty($isbn)?$isbn:NULL,PDO::PARAM_STR);
+            $stm->bindValue(':deplegal', !empty($deplegal)?$deplegal:NULL,PDO::PARAM_STR);
+            $stm->bindValue(':signtop', !empty($signtop)?$signtop:NULL,PDO::PARAM_STR);
             $stm->bindValue(':datbaixa_llib',!empty($datbaixa_llib)?$datbaixa_llib:NULL,PDO::PARAM_STR);
-            $stm->bindValue(':motiubaixa', $motiubaixa);
+            $stm->bindValue(':motiubaixa', !empty($motiubaixa)?$motiubaixa:NULL,PDO::PARAM_STR);
             $stm->bindValue(':fk_colleccio',!empty($fk_colleccio)?$fk_colleccio:NULL,PDO::PARAM_STR);
             $stm->bindValue(':fk_departament',!empty($fk_departament)?$fk_departament:NULL,PDO::PARAM_STR);
             $stm->bindValue(':fk_idedit', !empty($fk_idedit)?$fk_idedit:NULL,PDO::PARAM_STR);
             $stm->bindValue(':fk_llengua',!empty($fk_llengua)?$fk_llengua:NULL,PDO::PARAM_STR);
-            $stm->bindValue(':img_llib', $img_llib);
+            $stm->bindValue(':img_llib', !empty($img_llib)?$img_llib:NULL,PDO::PARAM_STR);
             $stm->execute();
-            $this->resposta->setCorrecta(true,$stm->rowCount());
+            $this->resposta->setCorrecta(true,"Update".$stm->rowCount());
             return $this->resposta;
         }
         catch (Exeption $e)

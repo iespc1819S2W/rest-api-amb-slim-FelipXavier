@@ -93,4 +93,17 @@ $app->group('/autor/', function () {
                 )
             );
     });
+
+    $this->get('cerca/{q}', function ($req, $res, $args) {
+        $obj = new Autor();
+        return $res
+            ->withHeader('Content-type', 'application/json')
+            ->getBody()
+            ->write(
+                json_encode(
+                    $obj->getQuery($args["q"])
+                )
+            );
+    });
+
 });
